@@ -113,7 +113,7 @@ const CONFIG = {
     {
       id: "6",
       name: "Jellyfin",
-      icon: "film-simple",
+      icon: "film",
       link: "http://localhost:8096/web/index.html#!/home.html"
     }
   ],
