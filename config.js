@@ -164,7 +164,7 @@ const CONFIG = {
   // First Links Container
   firstlistsContainer: [
     {
-      icon: "linux",
+      icon: "server",
       id: "1",
       links: [
         {
