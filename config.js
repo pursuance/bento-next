@@ -12,7 +12,7 @@ const CONFIG = {
 
   // General
   name: "Kyle",
-  openInNewTab: true,
+  openInNewTab: false,
   title: "New Tab",
 
   // Clock
@@ -164,7 +164,7 @@ const CONFIG = {
   // First Links Container
   firstlistsContainer: [
     {
-      icon: "server",
+      icon: "house",
       id: "1",
       links: [
         {
