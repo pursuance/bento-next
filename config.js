@@ -11,12 +11,12 @@ const CONFIG = {
   // └─┘┴ ┴└─┘┴└─┘└─┘
 
   // General
-  name: "John",
+  name: "Kyle",
   openInNewTab: true,
-  title: "Bento",
+  title: "New Tab",
 
   // Clock
-  twelveHourFormat: false,
+  twelveHourFormat: true,
   flashSeparator: false,
   
   // Theme
@@ -39,7 +39,7 @@ const CONFIG = {
 
   // Search Bar
   searchBar: true,
-  searchEngine: "google", // google, ddg
+  searchEngine: "ddg", // google, ddg
   barStyle: "bento", // bento, minimal, boxy, rounded
   barPlaceholder: "", // if blank, use search engine name. Set to ' ' for no placeholder.
   autoFocusBar: true,
@@ -48,15 +48,15 @@ const CONFIG = {
   greetingMorning: "Good morning,",
   greetingAfternoon: "Good afternoon,",
   greetingEvening: "Good evening,",
-  greetingNight: "Sweet dreams,",
+  greetingNight: "Good evening,",
 
   // Layout
   bentoLayout: "bento", // 'bento', 'lists', 'buttons'
 
   // Weather
-  weatherKey: "YourOpenWeatherMapAPIKey", // Write here your API Key
-  weatherIcons: "OneDark", // 'Onedark', 'Nord', 'Dark', 'White'
-  weatherUnit: "C", // 'F', 'C'
+  weatherKey: "4ed4fb7755080198c6ddee6a1b8b8e42", // Write here your API Key
+  weatherIcons: "White", // 'Onedark', 'Nord', 'Dark', 'White'
+  weatherUnit: "F", // 'F', 'C'
   language: "en", // More languages in https://openweathermap.org/current#multi
 
   trackLocation: true, // Request location from the browser. If false, or location is denied, use the coordinates below.
@@ -82,27 +82,27 @@ const CONFIG = {
   firstButtonsContainer: [
     {
       id: "1", // entry ID, don't modify.
-      name: "Github", // set the name of the card
-      icon: "fab-github", // provide a FontAwesome icon name. Regular icons (fa-) don't require a prefix, while FA-Brands icons must be prefixed with "fab-"
-      link: "https://github.com/" // provide a link to the page.
+      name: "YouTube", // set the name of the card
+      icon: "fab-youtube", // provide a FontAwesome icon name. Regular icons (fa-) don't require a prefix, while FA-Brands icons must be prefixed with "fab-"
+      link: "https://www.youtube.com/feed/subscriptions" // provide a link to the page.
     },
     {
       id: "2",
-      name: "Mail",
+      name: "Gmail",
       icon: "envelope",
-      link: "https://mail.protonmail.com/"
+      link: "https://mail.google.com/mail/u/0/#inbox"
     },
     {
       id: "3",
-      name: "Todoist",
-      icon: "list-ol",
-      link: "https://todoist.com"
+      name: "Twitch",
+      icon: "fab-twitch",
+      link: "https://www.twitch.tv/directory/following/live
     },
     {
       id: "4",
-      name: "Calendar",
-      icon: "calendar",
-      link: "https://calendar.google.com/calendar/r"
+      name: "Messages",
+      icon: "message",
+      link: "https://messages.google.com/web/conversations"
     },
     {
       id: "5",
@@ -112,9 +112,9 @@ const CONFIG = {
     },
     {
       id: "6",
-      name: "Odysee",
-      icon: "fab-youtube",
-      link: "https://odysee.com/"
+      name: "Jellyfin",
+      icon: "photo-film",
+      link: "http://localhost:8096/web/index.html#!/home.html"
     }
   ],
 
@@ -164,46 +164,46 @@ const CONFIG = {
   // First Links Container
   firstlistsContainer: [
     {
-      icon: "music",
+      icon: "linux",
       id: "1",
       links: [
         {
-          name: "Inspirational",
-          link: "https://www.youtube.com/watch?v=dQw4w9WgXcQ"
+          name: "Home Asssistant",
+          link: "http://192.168.1.181:8123/lovelace/0"
         },
         {
-          name: "Classic",
-          link: "https://www.youtube.com/watch?v=dQw4w9WgXcQ"
+          name: "Jellyfin",
+          link: "http://192.168.1.181:8096/web/index.html#!/home.html"
         },
         {
-          name: "Oldies",
-          link: "https://www.youtube.com/watch?v=dQw4w9WgXcQ"
+          name: "Sonarr",
+          link: "http://localhost:8989/"
         },
         {
-          name: "Rock",
-          link: "https://www.youtube.com/watch?v=dQw4w9WgXcQ"
+          name: "Radarr",
+          link: "http://localhost:7878/"
         }
       ]
     },
     {
-      icon: "coffee",
+      icon: "baseball",
       id: "2",
       links: [
         {
-          name: "Linkedin",
-          link: "https://www.linkedin.com"
+          name: "MLB",
+          link: "https://mlbshow.com/"
         },
         {
-          name: "Dribbble",
-          link: "https://www.dribbble.com"
+          name: "NFL",
+          link: "https://www.nflbite.com/"
         },
         {
-          name: "Trello",
-          link: "https://www.trello.com"
+          name: "NHL",
+          link: "https://live.redditnhlstreams.com/"
         },
         {
-          name: "Slack",
-          link: "https://www.slack.com"
+          name: "NBA",
+          link: "https://reddit.rnbastreams.com/"
         }
       ]
     }
@@ -264,7 +264,7 @@ const CONFIG = {
     searchBar: true,
     themeButton: true,
     clock: true,
-    greeter: true,
+    greeter: false,
     date: true,
     weather: true
   }
