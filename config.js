@@ -96,7 +96,7 @@ const CONFIG = {
       id: "3",
       name: "Twitch",
       icon: "fab-twitch",
-      link: "https://www.twitch.tv/directory/following/live
+      link: "https://www.twitch.tv/directory/following/live"
     },
     {
       id: "4",
