@@ -173,7 +173,7 @@ const CONFIG = {
         },
         {
           name: "Jellyfin",
-          link: "http://192.168.1.182:8096/web/index.html#!/home.html"
+          link: "http://192.168.1.234:8096/web/index.html#!/home.html"
         },
         {
           name: "Sonarr",
