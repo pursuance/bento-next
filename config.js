@@ -177,11 +177,11 @@ const CONFIG = {
         },
         {
           name: "Sonarr",
-          link: "http://localhost:8989/"
+          link: "http://192.168.1.234:8989/"
         },
         {
           name: "Radarr",
-          link: "http://localhost:7878/"
+          link: "http://192.168.1.234:7878/"
         }
       ]
     },
