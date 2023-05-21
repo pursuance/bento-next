@@ -112,9 +112,9 @@ const CONFIG = {
     },
     {
       id: "6",
-      name: "Jellyfin",
+      name: "Jellyseerr",
       icon: "film",
-      link: "http://localhost:8096/web/index.html#!/home.html"
+      link: "http://192.168.1.234:5055/"
     }
   ],
 
