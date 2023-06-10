@@ -169,7 +169,7 @@ const CONFIG = {
       links: [
         {
           name: "Home Asssistant",
-          link: "http://192.168.1.181:8123/lovelace/0"
+          link: "http://192.168.1.234:8123/lovelace/0"
         },
         {
           name: "Jellyfin",
