@@ -114,7 +114,7 @@ const CONFIG = {
       id: "6",
       name: "Jellyseerr",
       icon: "film",
-      link: "http://192.168.1.234:5055/"
+      link: "http://192.168.0.27:5055/"
     }
   ],
 
@@ -169,19 +169,19 @@ const CONFIG = {
       links: [
         {
           name: "Home Asssistant",
-          link: "http://192.168.1.181:8123/lovelace/0"
+          link: "http://192.168.0.78:8123/lovelace/0"
         },
         {
           name: "Jellyfin",
-          link: "http://192.168.1.234:8096/web/index.html#!/home.html"
+          link: "http://192.168.0.27:8096/web/index.html#!/home.html"
         },
         {
           name: "Sonarr",
-          link: "http://192.168.1.234:8989/"
+          link: "http://192.168.0.27:8989/"
         },
         {
           name: "Radarr",
-          link: "http://192.168.1.234:7878/"
+          link: "http://192.168.0.27:7878/"
         }
       ]
     },
